@@ -80,9 +80,9 @@
 #define E1_DIR_PIN         25
 #define E1_ENABLE_PIN      27
 
-#define E2_STEP_PIN        29
-#define E2_DIR_PIN         28
-#define E2_ENABLE_PIN      39
+//#define E2_STEP_PIN        29
+//#define E2_DIR_PIN         28
+//#define E2_ENABLE_PIN      39
 
 //
 // Temperature Sensors
@@ -120,13 +120,10 @@
 //
 #define HEATER_0_PIN        2
 #define HEATER_1_PIN        3
-#define HEATER_2_PIN        6
+#define HEATER_2_PIN        -1
 #define HEATER_3_PIN        8
-#define HEATER_BED_PIN      9
+#define HEATER_BED_PIN      6
 
-#ifndef FAN_PIN
-  #define FAN_PIN           7
-#endif
 #define FAN1_PIN            8
 
 //
